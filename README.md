@@ -88,13 +88,13 @@
 </tr>
 </table>
 
-## 🏗️ System Architecture
+##  System Architecture
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x400/1a1a1a/00ff88?text=AB.LAND+Architecture+Diagram" alt="AB.LAND Architecture" width="100%"/>
+
 </div>
 
-### 📁 Project Structure
+###  Project Structure
 
 ```bash
 AB.LAND/
@@ -125,7 +125,7 @@ AB.LAND/
 └── 🔄 .github/               # CI/CD workflows
 ```
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 <table>
 <tr>
@@ -144,7 +144,7 @@ AB.LAND/
 </td>
 <td width="25%" align="center">
 
-### 🎨 **Frontend**
+###  **Frontend**
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
@@ -190,9 +190,7 @@ AB.LAND/
 
 ## 🚀 Quick Start
 
-<div align="center">
-  <img src="https://via.placeholder.com/600x100/00ff88/000000?text=Get+Started+in+Under+5+Minutes" alt="Quick Start" width="60%"/>
-</div>
+
 
 ### 📋 Prerequisites
 
@@ -301,9 +299,7 @@ npm run deploy:local
 
 ### 🪙 Creating Your First Token
 
-<div align="center">
-  <img src="https://via.placeholder.com/500x300/1a1a1a/00ff88?text=Token+Creation+Flow" alt="Token Creation" width="70%"/>
-</div>
+
 
 **Step-by-step process:**
 
@@ -336,9 +332,7 @@ graph LR
 
 ## 🧪 Testing & Quality Assurance
 
-<div align="center">
-  <img src="https://via.placeholder.com/500x100/1a1a1a/00ff88?text=100%25+Test+Coverage+%7C+Enterprise+Grade" alt="Testing" width="60%"/>
-</div>
+
 
 ### 🚀 Quick Test Commands
 
@@ -467,9 +461,7 @@ GET /api/tokens/stats
 
 ## 🤝 Contributing
 
-<div align="center">
-  <img src="https://via.placeholder.com/400x100/00ff88/000000?text=Join+Our+Developer+Community" alt="Contributing" width="50%"/>
-</div>
+
 
 We ❤️ contributions! Join our vibrant developer community and help shape the future of decentralized token creation.
 
@@ -595,12 +587,7 @@ This project is licensed under the [MIT License](LICENSE) - feel free to use, mo
 [![Documentation](https://img.shields.io/badge/📚_Docs-docs.ab.land-00ff88?style=for-the-badge)](https://docs.ab.land)
 [![API](https://img.shields.io/badge/🔌_API-api.ab.land-00ff88?style=for-the-badge)](https://api.ab.land)
 
-### 💬 **Join Our Community**
 
-[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/abland)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/abdotland)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/abland_community)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abland)
 
 ### 📊 **Project Stats**
 
@@ -628,19 +615,19 @@ This project is licensed under the [MIT License](LICENSE) - feel free to use, mo
 <table>
 <tr>
 <td align="center" width="25%">
-  <img src="https://via.placeholder.com/100x50/363636/white?text=OpenZeppelin" alt="OpenZeppelin" width="100"/><br/>
+ 
   <sub><b>Security Libraries</b></sub>
 </td>
 <td align="center" width="25%">
-  <img src="https://via.placeholder.com/100x50/FFF100/black?text=Hardhat" alt="Hardhat" width="100"/><br/>
+
   <sub><b>Development Tools</b></sub>
 </td>
 <td align="center" width="25%">
-  <img src="https://via.placeholder.com/100x50/61DAFB/black?text=React" alt="React" width="100"/><br/>
+
   <sub><b>Frontend Framework</b></sub>
 </td>
 <td align="center" width="25%">
-  <img src="https://via.placeholder.com/100x50/007ACC/white?text=TypeScript" alt="TypeScript" width="100"/><br/>
+ 
   <sub><b>Type Safety</b></sub>
 </td>
 </tr>
@@ -653,7 +640,7 @@ This project is licensed under the [MIT License](LICENSE) - feel free to use, mo
 ---
 
 <div align="center">
-  <img src="https://via.placeholder.com/600x100/1a1a1a/00ff88?text=Built+with+❤️+by+the+AB.LAND+Team" alt="Footer" width="60%"/>
+ 
   
   **🌟 Making token creation accessible to everyone, everywhere 🌟**
   
