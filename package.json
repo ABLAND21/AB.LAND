@@ -1,0 +1,127 @@
+{
+  "name": "ab-land",
+  "version": "1.0.0",
+  "description": "Decentralized token launchpad built on AB Chain for creating and trading meme coins",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\" \"npm run dev:contracts\"",
+    "dev:frontend": "cd frontend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:contracts": "npx hardhat node",
+    "build": "npm run build:frontend && npm run build:backend",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && npm run build",
+    "test": "npm run test:contracts && npm run test:frontend && npm run test:backend",
+    "test:contracts": "npx hardhat test",
+    "test:frontend": "cd frontend && npm test -- --coverage --watchAll=false",
+    "test:backend": "cd backend && npm test",
+    "test:coverage": "npm run test:contracts:coverage && npm run test:frontend:coverage && npm run test:backend:coverage",
+    "test:contracts:coverage": "npx hardhat coverage",
+    "test:frontend:coverage": "cd frontend && npm run test:coverage",
+    "test:backend:coverage": "cd backend && npm run test:coverage",
+    "lint": "npm run lint:contracts && npm run lint:frontend && npm run lint:backend",
+    "lint:contracts": "npx solhint 'contracts/**/*.sol'",
+    "lint:frontend": "cd frontend && npm run lint",
+    "lint:backend": "cd backend && npm run lint",
+    "lint:fix": "npm run lint:contracts:fix && npm run lint:frontend:fix && npm run lint:backend:fix",
+    "lint:contracts:fix": "npx solhint 'contracts/**/*.sol' --fix",
+    "lint:frontend:fix": "cd frontend && npm run lint:fix",
+    "lint:backend:fix": "cd backend && npm run lint:fix",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,sol}\"",
+    "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,md,sol}\"",
+    "compile": "npx hardhat compile",
+    "deploy:local": "npx hardhat run scripts/deploy.js --network localhost",
+    "deploy:testnet": "npx hardhat run scripts/deploy.js --network abchain-testnet",
+    "deploy:mainnet": "npx hardhat run scripts/deploy.js --network abchain-mainnet",
+    "verify:testnet": "npx hardhat run scripts/verify.js --network abchain-testnet",
+    "verify:mainnet": "npx hardhat run scripts/verify.js --network abchain-mainnet",
+    "clean": "npx hardhat clean && rm -rf frontend/build && rm -rf backend/dist",
+    "prepare": "husky install",
+    "postinstall": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abland/ab.land.git"
+  },
+  "keywords": [
+    "blockchain",
+    "defi",
+    "token",
+    "launchpad",
+    "meme-coin",
+    "ab-chain",
+    "dex",
+    "smart-contracts",
+    "ethereum",
+    "web3",
+    "cryptocurrency",
+    "decentralized",
+    "liquidity",
+    "trading"
+  ],
+  "author": "AB.LAND Team <team@ab.land>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abland/ab.land/issues"
+  },
+  "homepage": "https://ab.land",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "@typechain/ethers-v6": "^0.5.0",
+    "@typechain/hardhat": "^9.0.0",
+    "@types/chai": "^4.2.0",
+    "@types/mocha": ">=9.1.0",
+    "@types/node": ">=18.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "chai": "^4.2.0",
+    "concurrently": "^8.2.0",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "hardhat": "^2.19.0",
+    "hardhat-gas-reporter": "^1.0.8",
+    "husky": "^8.0.0",
+    "lint-staged": "^14.0.0",
+    "prettier": "^3.0.0",
+    "prettier-plugin-solidity": "^1.1.3",
+    "solhint": "^4.0.0",
+    "solidity-coverage": "^0.8.1",
+    "ts-node": ">=8.0.0",
+    "typechain": "^8.3.0",
+    "typescript": ">=4.5.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.3.0",
+    "ethers": "^6.8.0"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md}": [
+      "prettier --write"
+    ],
+    "*.sol": [
+      "solhint --fix",
+      "prettier --write"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run test"
+    }
+  }
+}
