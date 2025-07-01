@@ -4,15 +4,11 @@
   # AB.LAND
   ### The Ultimate Decentralized Token Launchpad
   
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  [![Build Status](https://github.com/abland/ab.land/workflows/CI/badge.svg)](https://github.com/abland/ab.land/actions)
-  [![Coverage](https://codecov.io/gh/abland/ab.land/branch/main/graph/badge.svg)](https://codecov.io/gh/abland/ab.land)
-  [![Discord](https://img.shields.io/discord/123456789?color=7289da&label=Discord&logo=discord&logoColor=white)](https://discord.gg/abland)
   [![Twitter Follow](https://img.shields.io/twitter/follow/abdotland?style=social)](https://x.com/abdotland)
   
   **Democratizing token creation, one innovation at a time.**
   
-  [🚀 Launch App](https://ab.land) • [📖 Documentation](https://docs.ab.land) • [💬 Community](https://discord.gg/abland) • [🐦 Twitter](https://x.com/abdotland)
+ [🐦 Twitter](https://x.com/abdotland)
   
 </div>
 
