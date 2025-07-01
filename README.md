@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/your-logo-hash" alt="AB.LAND Logo" width="200" height="200"/>
+  <img src="./LOGO.jpg" alt="AB.LAND Logo" width="200" height="200"/>
   
   # AB.LAND
   ### The Ultimate Decentralized Token Launchpad
@@ -8,11 +8,11 @@
   [![Build Status](https://github.com/abland/ab.land/workflows/CI/badge.svg)](https://github.com/abland/ab.land/actions)
   [![Coverage](https://codecov.io/gh/abland/ab.land/branch/main/graph/badge.svg)](https://codecov.io/gh/abland/ab.land)
   [![Discord](https://img.shields.io/discord/123456789?color=7289da&label=Discord&logo=discord&logoColor=white)](https://discord.gg/abland)
-  [![Twitter Follow](https://img.shields.io/twitter/follow/abland_official?style=social)](https://twitter.com/abland_official)
+  [![Twitter Follow](https://img.shields.io/twitter/follow/abdotland?style=social)](https://x.com/abdotland)
   
   **Democratizing token creation, one innovation at a time.**
   
-  [🚀 Launch App](https://ab.land) • [📖 Documentation](https://docs.ab.land) • [💬 Community](https://discord.gg/abland) • [🐦 Twitter](https://twitter.com/abland_official)
+  [🚀 Launch App](https://ab.land) • [📖 Documentation](https://docs.ab.land) • [💬 Community](https://discord.gg/abland) • [🐦 Twitter](https://x.com/abdotland)
   
 </div>
 
@@ -602,7 +602,7 @@ This project is licensed under the [MIT License](LICENSE) - feel free to use, mo
 ### 💬 **Join Our Community**
 
 [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/abland)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/abland_official)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/abdotland)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/abland_community)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abland)
 
